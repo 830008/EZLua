@@ -3,12 +3,13 @@
 ##  How to set up:
 ```
 Put this model in ServerScriptService, you can edit the settings.
-[Link](https://www.roblox.com/library/8226822035)
+
 And then EZLua can be accessed in any script by using the following code:
 
 local EZLua = require(_G.EZLua)
 
 ```
+[Model Link](https://www.roblox.com/library/8226822035)
 ----
 ## Use Methods:
 ```
