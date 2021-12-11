@@ -4,6 +4,7 @@ After you made that script, paste the code that is in setup.lua into this script
 EZLua can be accessed from _G.EZLua
 --------------------------------------------------
 Use methods:
+
     You can use EZLua for services, basic functions, things as simple as logging, and things as complex as playertables.
     Here are all use methods:
     _G.EZLua.Logging:
