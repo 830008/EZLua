@@ -7,6 +7,8 @@ Use methods:
 
     You can use EZLua for services, basic functions, things as simple as logging, and things as complex as playertables.
     Here are all use methods:
+.
+----------------------------
     _G.EZLua.Logging:
         Log(data)
 -------------------------------------------------
