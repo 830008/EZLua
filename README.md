@@ -8,20 +8,20 @@ Use methods:
     Here are all use methods:
     _G.EZLua.Logging:
         Log(data)
-    -------------------------------------------------
+-------------------------------------------------
     _G.EZLua.Services:
         Basic Roblox services, such as DataStoreService, Workspace, ReplicatedStorage, ServerStorage, and so on. Custom ones are coming soon though.
-    ------------------------------------------------
+------------------------------------------------
     _G.EZLua.Moderation:
         Kick(plr, reason)
 
         Ban(plr)
 
         unBan(userId)
-    -------------------------------------------------
+-----------------------------------------------------
     _G.EZLua.Functions:
         PlaceTeleport(placeId, plr, teleportData)
-    --------------------------------------------------
+----------------------------------------------------
     _G.EZLua.PlayerTables:
         CreatePlayerTable(plr, val1, val2, val3, val4)
         Each one of the values above can be accessed with the below, but each value is matched with a key.
