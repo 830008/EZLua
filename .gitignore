@@ -1,2 +1,4 @@
 build.rbxlx
 build.rbxlx.lock
+src/ServerScriptService/Script.server.lua
+src/ServerScriptService/Useless.server.lua
