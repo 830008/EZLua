@@ -13,7 +13,7 @@ for i,v in pairs(game.Players:GetChildren()) do
 
 	end
 end
-game.Players.PlayerAdded:Connect(function(player)
+EZLuaMain.Services.PlayerAdded:Connect(function(player)
 	local Bans = EZLuaMain.Services.DataStoreService:GetDataStore("bans")
 	if(Bans:GetAsync(player.UserId) == true)then
 		player:Kick()

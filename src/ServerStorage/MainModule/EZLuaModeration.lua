@@ -8,8 +8,8 @@ function EZLuaModeration.Ban(player)
 	EZLuaModeration.bansDataStore:SetAsync(player.UserId, true)
 	player:Kick()
 end
-function EZLuaModeration.unBan(player)
-	EZLuaModeration.bansDataStore:RemoveAsync(player.UserId)
+function EZLuaModeration.unBan(userId)
+	EZLuaModeration.bansDataStore:RemoveAsync(UserId)
 
 end
 
