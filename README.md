@@ -1,7 +1,7 @@
 ## EZLua
 -----
 ##  How to set up:
-[Model Link](https://www.roblox.com/library/8226822035)
+## [Model Link](https://www.roblox.com/library/8226822035)
 ```
 Put this model in ServerScriptService, you can edit the settings.
 
