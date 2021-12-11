@@ -1,3 +1,4 @@
 build.rbxlx
 build.rbxlx.lock
 src/ServerScriptService/testing.server.lua
+default.project.json
