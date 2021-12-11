@@ -1,6 +1,7 @@
 ## EZLua
 -----
 ##  How to set up:
+[Model Link](https://www.roblox.com/library/8226822035)
 ```
 Put this model in ServerScriptService, you can edit the settings.
 
@@ -9,7 +10,6 @@ And then EZLua can be accessed in any script by using the following code:
 local EZLua = require(_G.EZLua)
 
 ```
-[Model Link](https://www.roblox.com/library/8226822035)
 ----
 ## Use Methods:
 ```
