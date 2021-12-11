@@ -43,6 +43,8 @@ unBan(userId)
 ## Functions:
 ```lua
 PlaceTeleport(placeId, plr, teleportData)
+killPlayer(plr)
+shutdownServer()
 ```
 ##
 ##
