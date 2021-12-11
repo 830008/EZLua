@@ -1,6 +1,8 @@
 How to set up:
 Make a script in ServerScriptService, name that script EZLuaHandler
+
 After you made that script, paste the code that is in setup.lua into this script, and then you're done.
+
 EZLua can be accessed from _G.EZLua
 --------------------------------------------------
 Use methods:
