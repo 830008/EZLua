@@ -31,7 +31,7 @@ Basic Roblox services, such as DataStoreService, Workspace, ReplicatedStorage, S
 ##
 ##
 ## Moderation:
-```
+```lua
 Kick(plr, reason)
 
 Ban(plr)
