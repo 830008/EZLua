@@ -1,0 +1,7 @@
+local EZLua = require(game.ServerStorage.MainModule)
+game.Players.PlayerAdded:Connect(function(plr)
+	EZLua.PlayerTables.CreatePlayerTable(plr, plr.UserId, plr.Name)	
+	wait(2)
+	local PlayerTables = EZLua.PlayerTables.GetPlayerTables()
+	print(PlayerTables[plr.UserId].key1)
+end)
