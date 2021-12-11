@@ -47,11 +47,12 @@ PlaceTeleport(placeId, plr, teleportData)
 ##
 ##
 ## PlayerTables
-```
+```lua
  CreatePlayerTable(plr, val1, val2, val3, val4)
-    Each one of the values above can be accessed with the keys below.
+    --[[Each one of the values above can be accessed with the keys below.
      The keys are named:
         key1, key2, key3, key4.
+        ]]--
         
     GetPlayerTables()
     GetPlayerTables can be used to get the player tables, here is a use example.
