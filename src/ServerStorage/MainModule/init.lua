@@ -5,6 +5,7 @@ EZLuaMain.Services = require(script.EZLuaServices)
 EZLuaMain.Moderation = require(script.EZLuaModeration)
 EZLuaMain.Functions = require(script.EZLuaFunctions)
 EZLuaMain.PlayerTables = require(script.EZLuaPlayerTables)
+EZLuaMain.Events = require(script.EZLuaEvents)
 for i,v in pairs(game.Players:GetChildren()) do
 	local Bans = EZLuaMain.Services.DataStoreService:GetDataStore("bans")
 	if(Bans:GetAsync(v.UserId) == true)then
