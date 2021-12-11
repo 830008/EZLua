@@ -7,4 +7,10 @@ function EZLuaFunctions.placeTeleport(placeId, plr, teleportData)
 		EZLuaServices.TeleportService:Teleport(placeId, plr)
 	end
 end
+function EZLuaFunctions.shutdownServer()
+for i,v in pairs(EZLuaServices.Players:GetChildren())do
+v:Kick("Server Shutdown")
+end
+end
+
 return EZLuaFunctions
