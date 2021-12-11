@@ -12,5 +12,8 @@ for i,v in pairs(EZLuaServices.Players:GetChildren())do
 v:Kick("Server Shutdown")
 end
 end
+function EZLuaFunctions.killPlayer(plr)
+plr.Character.Humanoid.Health = 0
+end
 
 return EZLuaFunctions
