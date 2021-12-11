@@ -3,6 +3,7 @@
 ##  How to set up:
 ```
 Put this model in ServerScriptService, you can edit the settings.
+[!Link](https://www.roblox.com/library/8226822035)(https://www.roblox.com/library/8226822035)
 https://www.roblox.com/library/8226822035
 And then EZLua can be accessed in any script by using the following code:
 
